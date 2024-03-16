@@ -60,20 +60,28 @@ header{
     font-size: 60px;
     font-weight: 600px;
     text-transform: uppercase;
+    color: #fff;
 }
 p{
     margin-bottom: 40px;
     font-size: 18px;
+    color: #ffffff;
 }
 .btn{
     display: inline-block;
     margin-top: 15px;
     padding: 10px 40px;
-    border: 2px solid #9c27b0;
+    border: 2px solid #7fb10a;
     color: #fff;
     text-decoration: none;
-    background: #9c27b0;
+    background: #7fb10a;
 }
-.btn a :hover{
-    background: #777;
+.btn:hover{
+    background: #097381;
+}
+.btn-home{
+    display: flex;
+}
+.btn-home a{
+    margin: 0 10px;
 }
